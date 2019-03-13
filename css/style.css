@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav a {
   padding: 5px 10px;
-  color: #fff;
+  color: #960000;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1, .fh5co-nav .menu-2 {
@@ -294,13 +294,20 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transform: scale(1.2);
   transform: scale(1.2);
 }
+#header-color h1{
+  color: #960000 !important
+}
+#header-color h2{
+  color: #960000 !important
+}
 
 .fh5co-cover {
-  height: 900px;
-  background-size: cover;
+  height: 100% !important;
+  /* background-size: cover; */
   background-repeat: no-repeat;
   position: relative;
   width: 100%;
+  background-position: center;
 }
 .fh5co-cover .overlay {
   z-index: 0;
