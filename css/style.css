@@ -1,7 +1,9 @@
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx")
+       format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon")
+       format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1007,7 +1009,7 @@ form label {
 #fh5co-couple,
 #fh5co-gallery,
 .fh5co-section {
-  padding: 7em 0;
+  padding: 5em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -1278,7 +1280,8 @@ form label {
   font-size: 32px;
   color: #dadada;
 }
-#fh5co-testimonial .wrap-testimony .arrow-thumb a:hover, #fh5co-testimonial .wrap-testimony .arrow-thumb a:focus, #fh5co-testimonial .wrap-testimony .arrow-thumb a:active {
+#fh5co-testimonial .wrap-testimony .arrow-thumb a:hover, #fh5co-testimonial .wrap-testimony .arrow-thumb a:focus,
+#fh5co-testimonial .wrap-testimony .arrow-thumb a:active {
   text-decoration: none;
 }
 
