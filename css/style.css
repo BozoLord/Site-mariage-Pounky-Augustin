@@ -1552,6 +1552,13 @@ form label {
   -ms-border-radius: 4px;
   border-radius: 4px;
 }
+.gototop a :hover {
+  background: #960000;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
 .gototop a i {
   height: 50px;
   display: table-cell;
