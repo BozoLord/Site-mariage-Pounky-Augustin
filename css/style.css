@@ -514,6 +514,9 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-transition: background-color 500ms linear;
   transition: background-color 500ms linear;
 }
+.timeline > li > .timeline-panel:hover h3{
+  color: whitesmoke !important;
+}
 .timeline > li > .timeline-panel:before {
   position: absolute;
   top: 80px;
@@ -594,6 +597,8 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .timeline-title {
   margin-top: 0;
+  font-family: Dancing Script;
+  font-size: 35px;
 }
 
 .date {
