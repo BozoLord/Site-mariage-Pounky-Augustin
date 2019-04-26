@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-nav #fh5co-logo {
-  font-size: 40px;
+  font-size: 50px;
   margin: 0;
   padding: 0;
   line-height: 40px;
@@ -295,7 +295,7 @@ h1, h2, h3, h4, h5, h6, figure {
   transform: scale(1.2);
 }
 #header-color h1{
-  color: #960000 !important
+  color: #333 !important
 }
 #header-color h2{
   color: #960000 !important
@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-cover {
   height: 100% !important;
-  /* background-size: cover; */
+  background-size: contain, cover ;
   background-repeat: no-repeat;
   position: relative;
   width: 100%;
@@ -943,6 +943,7 @@ form label {
 .simply-countdown {
   /* The countdown */
   margin-bottom: 2em;
+  margin-top: 1em;
 }
 
 .simply-countdown > .simply-section {
