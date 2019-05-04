@@ -1,7 +1,9 @@
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx")
+       format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon")
+       format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -11,7 +13,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Comic Sans MS", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -58,9 +60,9 @@ a:hover, a:active, a:focus {
   text-decoration: none;
 }
 
-p {
+/* p {
   margin-bottom: 20px;
-}
+} */
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
@@ -500,10 +502,20 @@ h1, h2, h3, h4, h5, h6, figure {
   border: 1px solid #d4d4d4;
   padding: 30px;
   position: relative;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 70px;
+  -moz-border-radius: 70px;
+  -ms-border-radius: 70px;
+  border-radius: 70px;
+}
+.timeline > li > .timeline-panel:hover{
+  background-color: RGBA(150,0,0,0.7);
+  color: whitesmoke !important;
+  -webkit-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
+}
+.timeline > li > .timeline-panel:hover h3{
+  color: whitesmoke !important;
 }
 .timeline > li > .timeline-panel:before {
   position: absolute;
@@ -585,6 +597,8 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .timeline-title {
   margin-top: 0;
+  font-family: Dancing Script;
+  font-size: 35px;
 }
 
 .date {
@@ -1008,7 +1022,7 @@ form label {
 #fh5co-couple,
 #fh5co-gallery,
 .fh5co-section {
-  padding: 7em 0;
+  padding: 10em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -1279,7 +1293,8 @@ form label {
   font-size: 32px;
   color: #dadada;
 }
-#fh5co-testimonial .wrap-testimony .arrow-thumb a:hover, #fh5co-testimonial .wrap-testimony .arrow-thumb a:focus, #fh5co-testimonial .wrap-testimony .arrow-thumb a:active {
+#fh5co-testimonial .wrap-testimony .arrow-thumb a:hover, #fh5co-testimonial .wrap-testimony .arrow-thumb a:focus,
+#fh5co-testimonial .wrap-testimony .arrow-thumb a:active {
   text-decoration: none;
 }
 
@@ -1538,6 +1553,13 @@ form label {
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
   text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+.gototop a :hover {
+  background: #960000;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
